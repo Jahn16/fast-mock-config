@@ -9,8 +9,6 @@ spec:
     repoURL: https://github.com/Jahn16/fast-mock-config.git
     path: fastmock
     targetRevision: HEAD
-    helm:
-      releaseName: fastmock
   destination:
     server: "https://kubernetes.default.svc"
     namespace: fastmock
